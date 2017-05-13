@@ -81,6 +81,9 @@
             <a class="nav-link" href="#about">Giới Thiệu</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="#bonus">Quà Tặng</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="#signup">Đăng Ký</a>
           </li>
         </ul>
@@ -91,7 +94,7 @@
   <header class="masthead">
     <div class="header-content">
       <div class="header-content-inner">
-        <h1 id="homeHeading">Mẹo Vặt Tiếng Anh Hằng Ngày</h1>
+        <h1 id="homeHeading">Mẹo Vặt Tiếng Anh Mỗi Ngày</h1>
         <hr>
         <p>Với tinh thần TỰ HỌC NGHIÊM TÚC, chúng tôi sẽ gửi bạn một email mỗi ngày về từ ngữ, ngữ pháp và một bài tập nhỏ để bạn rèn luyện kĩ năng viết Tiếng Anh của mình.</p>
         <a class="btn btn-primary btn-xl" href="#about">TÌM HIỂU THÊM</a>
@@ -110,18 +113,25 @@
     </div>
     <div class="container">
       <div class="row py-3">
-        <div class="col-lg-6 col-md-6 text-center">
+        <div class="col-md-4 text-center">
           <div class="service-box">
             <i class="fa fa-4x fa-pencil text-primary sr-icons py-3"></i>
             <h3>Mẹo Vặt Tiếng Anh</h3>
             <p class="text-muted pt-3">Từ vựng mới, thủ thuật, ngữ pháp thường gặp khi viết.</p>
           </div>
         </div>
-        <div class="col-lg-6 col-md-6 text-center">
+        <div class="col-md-4 text-center">
           <div class="service-box">
             <i class="fa fa-4x fa-book text-primary sr-icons py-3"></i>
             <h3>Bài Tập Thực Hành</h3>
             <p class="text-muted pt-3">Kiểm tra vốn kiến thức từ vựng và ngữ pháp của bạn.</p>
+          </div>
+        </div>
+        <div class="col-md-4 text-center">
+          <div class="service-box">
+            <i class="fa fa-4x fa-heart text-primary sr-icons py-3"></i>
+            <h3>Hoàn Toàn Miễn Phí</h3>
+            <p class="text-muted pt-3">Sharing is caring. Chúng tôi sẽ không thu của bạn một đồng nào.</p>
           </div>
         </div>
       </div>
@@ -132,11 +142,10 @@
     <div class="container text-white">
       <div class="row">
         <div class="col-md-8 offset-md-2">
-          <h2 class="section-heading text-center">Phần Quà Đặc Biệt</h2>
+          <h2 id="bonus" class="section-heading text-center">Phần Quà Đặc Biệt Khi Đăng Ký</h2>
           <hr class="light">
-          <h5 class="text-center pt-2">Dành cho 100 bạn đăng ký sớm nhất</h5>
           <div class="text-center py-4"><img src="img/cover-woe-is-i.jpg" class="img-fluid" width="200" alt="Woe Is I"></div>
-          <p>Woe Is I của tác giả Patricia T. O'Conner là quyển sách học Tiếng Anh đơn giản và dễ hiểu dành cho mọi đối tượng. Nó sẽ là một người bạn không thể thiếu cho những ai muốn nâng cao kỹ năng viết Tiếng Anh của mình.</p>
+          <p>Sau khi đăng ký, bạn sẽ nhận được ebook Woe Is I của tác giả Patricia T. O'Conner. Đây là quyển sách học Tiếng Anh đơn giản và dễ hiểu dành cho mọi đối tượng. Nó sẽ là một người bạn không thể thiếu cho những ai muốn nâng cao kỹ năng viết Tiếng Anh của mình.</p>
         </div>
       </div>
     </div>
@@ -152,7 +161,7 @@
           <style type="text/css">
             .indicates-required {
               text-align: right;
-              font-size: 12px;
+              font-size: 80%;
               margin-right: 2%;
             }
 
@@ -169,6 +178,11 @@
               margin: 0;
               background-color: transparent;
               text-align: center;
+            }
+
+            .form-notice {
+              width: 100%;
+              margin: auto 2%;
             }
           </style>
           <div id="mc_embed_signup">
@@ -199,7 +213,7 @@
                       <span class="subfield dayfield"><input class="datepart " type="text" pattern="[0-9]*" value="" placeholder="DD" size="3" maxlength="2" name="BIRTHDAY[day]" id="mce-BIRTHDAY-day"></span>                      /
                       <span class="subfield monthfield"><input class="datepart " type="text" pattern="[0-9]*" value="" placeholder="MM" size="3" maxlength="2" name="BIRTHDAY[month]" id="mce-BIRTHDAY-month"></span>                      /
                       <span class="subfield yearfield"><input class="datepart " type="text" pattern="[0-9]*" value="" placeholder="YYYY" size="5" maxlength="4" name="BIRTHDAY[year]" id="mce-BIRTHDAY-year"></span>
-                      <span class="small-meta nowrap">( dd / mm / yyyy )</span>
+                      <span class="small-meta nowrap">(ngày/tháng/năm)</span>
                     </div>
                   </div>
                   <fieldset class="form-group col-md-6">
@@ -226,10 +240,14 @@
                   <div class="response" id="mce-success-response" style="display:none"></div>
                 </div>
                 <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ebb6bff33383ba69033f586d6_f7c1ebd659" tabindex="-1" value="">
-                  <input type="hidden" name="SOURCE" id="mce-SOURCE" value=""></div>
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ebb6bff33383ba69033f586d6_f7c1ebd659" tabindex="-1" value=""><input type="hidden" name="SOURCE" id="mce-SOURCE" value=""></div>
                 <div class="row">
-                  <div class="form-actions pt-5">
+                  <div class="form-notice pt-3">
+                    <small>Mọi người đều ghét quảng cáo vì thế chúng tôi cam đoan sẽ không gửi cho bạn bất kỳ mẫu quảng cáo nào.</small>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-actions pt-3">
                     <button type="submit" name="subscribe" class="btn btn-primary btn-xl">ĐĂNG KÝ</button>
                   </div>
                 </div>
@@ -245,7 +263,7 @@
 
   <footer class="call-to-action bg-dark">
     <div class="container text-center">
-      <small>&copy; 2017 Marketing team of SSS.
+      <small>&copy; 2017 Daily Writing Tips.
     </div>
   </footer>
 
